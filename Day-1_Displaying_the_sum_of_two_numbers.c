@@ -1,6 +1,6 @@
 // Displaying the sum of two numbers
 
-#include <iostream>
+#include <stdio.h>
 
 int main() {
     double num1, num2, sum;
