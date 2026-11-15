@@ -1,0 +1,18 @@
+//Calculating-the-area-and-circumference-of-a-circle
+
+#include <stdio.h>
+
+#define PI 3.1415926535
+
+int main() {
+    double radius, area, circumference;
+    printf("Enter radius: ");
+    scanf("%lf", &radius);
+
+    area = PI * radius * radius;
+    circumference = 2 * PI * radius;
+
+    printf("Area = %.2lf\n", area);
+    printf("Circumference = %.2lf\n", circumference);
+    return 0;
+}
